@@ -1,8 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     box-sizing: border-box;
     /*font-family: "Chivo Mono", monospace;*/
     font-family: "Major Mono Display", monospace;
-
 }
 h1 {
     font-family: "Major Mono Display", monospace;
@@ -15,18 +17,17 @@ nav {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-end;
-    height: 90vh;
+    height: 93vh;
 
 }
 nav div {
     padding: 0;
 
 }
-nav div img {
-    height: 1.5rem;
-    width: 1.5rem;
+nav i {
+    font-size: 16pt;
 }
-section {
+.heroPage {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -40,7 +41,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: rgba(18, 113, 115, 0.75);
+    color: rgb(18, 113, 115);
 
 }
 .subtitle {
@@ -53,9 +54,40 @@ section {
 .subtitle button {
     font-size: 10pt;
 }
-h1 {
+h1,h2,h3 {
     margin: 0;
 }
 p {
     margin: 0;
+}
+.aboutPage {
+    height: 100vh;
+    background: rgb(255,174,0);
+    background: linear-gradient(0deg, rgba(255,174,0,1) 0%, rgba(34, 193, 195, 0.74) 100%);
+
+}
+.aboutPage h2,h3 {
+    text-decoration: underline;
+}
+.hardSkills {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.softSkills h3 {
+
+}
+.softSkills {
+    display: flex;
+    justify-content: flex-end;
+}
+.projectsPage {
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(34,193,195,0.7539609593837535) 0%, rgba(255,174,0,1) 100%);
+
+}
+.img {
+    width: 50vw;
+    height: 15vh;
+    background-color: white;
 }
