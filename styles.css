@@ -34,7 +34,9 @@ nav i {
     font-size: 16pt;
 }
 
-
+.toolTipText {
+    display: none;
+}
 section {
     padding: 0 4px;
 
@@ -108,6 +110,16 @@ p {
     flex-direction: column;
     justify-content: space-around;
 }
+img {
+    height: 130px;
+    width: 130px;
+    margin-top: 5px;
+    padding: 3px;
+    border: solid 2px rgb(18, 113, 115);
+}
+.project div{
+    padding-bottom: 0.5rem;
+}
 .project a {
     text-decoration: none;
     color: rgb(18, 113, 115);
@@ -154,6 +166,16 @@ span {
     body {
         line-height: 1.6;
     }
+    nav .tooltip .toolTipText {
+        display: block;
+        visibility: hidden;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+
+    }
+    .tooltip:hover .toolTipText {
+        visibility: visible;
+    }
     .heroPage {
         flex-direction: row;
         justify-content: flex-end;
@@ -164,13 +186,16 @@ span {
     .project {
         margin: 2rem 0;
     }
-    .project div {
-
+    .project div div{
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
     }
     .project h4 {
         margin: 0;
     }
     .project aside {
         font-size: 11pt;
+
     }
 }
