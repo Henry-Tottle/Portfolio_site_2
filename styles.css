@@ -5,9 +5,12 @@ body {
     box-sizing: border-box;
     /*font-family: "Chivo Mono", monospace;*/
     font-family: "Major Mono Display", monospace;
+
 }
 h1 {
     font-family: "Major Mono Display", monospace;
+    /*font-family: "Chivo Mono", monospace;*/
+
 }
 
 nav {
@@ -27,6 +30,11 @@ nav div {
 nav i {
     font-size: 16pt;
 }
+
+section {
+    padding: 0 1rem;
+
+}
 .heroPage {
     height: 100vh;
     display: flex;
@@ -38,6 +46,7 @@ nav i {
 }
 .titleContainer {
     height: 80vh;
+    padding-right: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,4 +99,21 @@ p {
     width: 50vw;
     height: 15vh;
     background-color: white;
+}
+.contactMe {
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(255,174,0,1) 0%, rgba(34, 193, 195, 0.74) 100%);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.contactMe div{
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactMe i {
+    text-decoration: none;
+    font-size: 40pt;
 }
