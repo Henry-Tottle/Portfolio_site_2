@@ -161,4 +161,13 @@ span {
     .titleContainer {
         width: 80vw;
     }
+    .project {
+        margin: 2rem 0;
+    }
+    .project h4 {
+        margin: 0;
+    }
+    .project aside {
+        font-size: 11pt;
+    }
 }
