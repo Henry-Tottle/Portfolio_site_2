@@ -114,7 +114,9 @@ div {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
 
 .aboutPage h2, h3, h4 {
     text-decoration: underline;
@@ -129,6 +131,10 @@ div {
 .softSkills {
     display: flex;
     justify-content: flex-end;
+}
+.biog {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 p a{
