@@ -1,27 +1,28 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     box-sizing: border-box;
-    /*font-family: "Chivo Mono", monospace;*/
-    /*font-family: "Major Mono Display", monospace;*/
     font-family: "Kode Mono", monospace;
     color: rgb(18, 113, 115);
-
-
 }
+
 h1 {
     font-family: "Major Mono Display", monospace;
     font-size: 40pt;
-    /*font-family: "Chivo Mono", monospace;*/
 }
+
 i {
+    color: rgb(18, 113, 115);
     text-decoration: none;
 }
+
 .blogPage a {
     text-decoration: none;
     color: rgb(18, 113, 115);
 }
+
 nav {
     position: fixed;
     top: 5px;
@@ -33,13 +34,16 @@ nav {
     z-index: 10;
 
 }
+
 nav div {
     padding: 0;
 
 }
+
 nav i {
     font-size: 16pt;
 }
+
 .toolTipText {
     display: none;
 }
@@ -48,27 +52,29 @@ section {
     padding: 0 4px;
 
 }
-.aboutPage,.projectsPage,.contactMe {
+
+.aboutPage, .projectsPage, .contactMe {
     padding: 0 2.5rem;
 }
+
 .heroPage {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,0.7539609593837535) 0%, rgba(255,174,0,1) 100%);
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 0.7539609593837535) 0%, rgba(255, 174, 0, 1) 100%);
 }
+
 .titleContainer {
     height: 80vh;
     padding: 0 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*color: rgb(18, 113, 115);*/
-
 }
+
 .subtitle {
     height: 25vh;
     margin: 0;
@@ -76,6 +82,7 @@ section {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
 .subtitle button {
     font-size: 10pt;
     color: rgb(18, 113, 115);
@@ -83,25 +90,30 @@ section {
     background-color: transparent;
     padding: 5px 1px;
 }
-h1,h2,h3,p {
+
+h1, h2, h3, p {
     margin: 0;
     filter: drop-shadow(14px 12px 35px rgba(0, 0, 0, 0.4));
 }
+
 div {
     filter: drop-shadow(14px 12px 35px rgba(77, 110, 174, 0.13));
 
 }
+
 .aboutPage {
     height: 100vh;
-    background: rgb(255,174,0);
-    background: linear-gradient(0deg, rgba(255,174,0,1) 0%, rgba(34, 193, 195, 0.74) 100%);
+    background: rgb(255, 174, 0);
+    background: linear-gradient(0deg, rgba(255, 174, 0, 1) 0%, rgba(34, 193, 195, 0.74) 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.aboutPage h2,h3, h4 {
+
+.aboutPage h2, h3, h4 {
     text-decoration: underline;
 }
+
 .hardSkills {
     display: flex;
     flex-direction: row-reverse;
@@ -112,13 +124,15 @@ div {
     display: flex;
     justify-content: flex-end;
 }
+
 .projectsPage {
     height: 100vh;
-    background: linear-gradient(0deg, rgba(34,193,195,0.7539609593837535) 0%, rgba(255,174,0,1) 100%);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 0.7539609593837535) 0%, rgba(255, 174, 0, 1) 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
 img {
     height: 130px;
     width: 130px;
@@ -126,64 +140,107 @@ img {
     padding: 3px;
     border: solid 2px rgb(18, 113, 115);
 }
-.project div{
+
+.project div {
     padding-bottom: 0.5rem;
 }
+
 .project a {
     text-decoration: none;
     color: rgb(18, 113, 115);
 }
+
 .project:hover {
     background-color: rgba(250, 235, 215, 0.42);
 }
-aside{
+
+aside {
     font-size: 8pt;
 }
+
 .project div div {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
+
 .contactMe {
     height: 100vh;
-    background: linear-gradient(0deg, rgba(255,174,0,1) 0%, rgba(34, 193, 195, 0.74) 100%);
+    background: linear-gradient(0deg, rgba(255, 174, 0, 1) 0%, rgba(34, 193, 195, 0.74) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10rem;
 
 }
-.contactMe div{
+
+.contactMe div {
     text-align: center;
     display: flex;
     justify-content: center;
 }
+
 .contactMe i {
     font-size: 40pt;
     font-family: "Major Mono Display", monospace;
 }
+
 span {
     font-family: "Major Mono Display", monospace;
     font-size: 16pt;
 }
 
-.blogPage,.CVPage {
-    height: 100vh;
+.blogPage, .CVPage {
+    height: 100%;
     width: 100%;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,0.7539609593837535) 0%, rgba(255,174,0,1) 100%);
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 0.7539609593837535) 0%, rgba(255, 174, 0, 1) 100%);
     display: flex;
+    justify-content: space-around;
 }
+
 .blogPage div {
-    width: 50%;
+    width: 20%;
+    z-index: 5;
 }
+
+.blogPage section {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogPage section div {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .blogPage i {
     font-size: 20pt;
 }
+
+.blogPage a {
+    position: fixed;
+}
+
+.blogLinks {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.blogLinks button {
+    background-color: transparent;
+    border-color: rgb(18, 113, 115);
+    border-radius: 10px;
+    padding: 0 6px;
+}
+
 @media screen  and (min-width: 700px) {
     body {
         line-height: 1.6;
     }
+
     .tooltip .toolTipText {
         display: block;
         visibility: hidden;
@@ -191,29 +248,35 @@ span {
         text-orientation: upright;
 
     }
+
     .tooltip:hover .toolTipText {
         visibility: visible;
     }
+
     .heroPage {
         flex-direction: row;
         justify-content: flex-end;
     }
+
     .titleContainer {
         width: 80vw;
     }
+
     .project {
         margin: 2rem 0;
     }
-    .project div div{
+
+    .project div div {
         display: flex;
         justify-content: space-between;
         gap: 3rem;
     }
+
     .project h4 {
         margin: 0;
     }
+
     .project aside {
         font-size: 11pt;
-
     }
 }

@@ -4,32 +4,41 @@
     <meta charset="UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="styles.css">
     <title>Henry's notes</title>
 </head>
 <body class="blogPage">
 
-<div><a href="https://henry-tottle.github.io/Portfolio_site_2/"><i class='bx bx-home-alt' style='color:#127173'></i></a></div>
+<div class="tooltip"><a href="index.html"><i class='bx bx-home-alt'><br><span class="toolTipText">Home</span></i></a>
+</div>
 
 <section>
     <div>
         <h1>Welcome to my blog...</h1>
     </div>
     <div>
-        <h2>I will use this space to showcase my notes from my time at iO Academy... and it gives me an excuse to look over them.</h2>
+        <h2>I will use this space to showcase my notes from my time at iO Academy... and it gives me an excuse to look
+            over them.</h2>
     </div>
     <div>
         <h2>Week 1</h2>
         <div>
-            <a href="≈"><h3>HTML:</h3></a>
+            <div class="blogLinks">
+                <div>
+                    <h3>HTML:</h3>
+                </div>
+                <div>
+                    <a href="#"><button><i class='bx bxs-chevrons-right'></i></button></a>
+                </div>
+            </div>
             <ul>
                 <li>Separation of Concerns</li>
                 <li>HTML Syntax</li>
@@ -38,7 +47,14 @@
                 <li>Forms</li>
                 <li>Client-Server Model</li>
             </ul>
-            <a href="#"><h3>CSS:</h3></a>
+            <div class="blogLinks">
+                <div>
+                    <h3>CSS:</h3>
+                </div>
+                <div>
+                    <a href="#"><button><i class='bx bxs-chevrons-right'></i></button></a>
+                </div>
+            </div>
             <ul>
                 <li>Styling with CSS</li>
                 <li>Colo(u)rs and borders in CSS</li>
@@ -48,7 +64,14 @@
                 <li>Flexbox</li>
                 <li>Responsive development</li>
             </ul>
-            <a href="#"><h3>Being a developer:</h3></a>
+            <div class="blogLinks">
+                <div>
+                    <h3>Being A Developer:</h3>
+                </div>
+                <div>
+                    <a href="#"><button><i class='bx bxs-chevrons-right' ></i></button></a>
+                </div>
+            </div>
             <ul>
                 <li>Pair Programming</li>
                 <li>Code Review</li>
@@ -63,13 +86,7 @@
     </div>
 
 
-
-
-
 </section>
-
-
-
 
 
 </body>

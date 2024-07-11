@@ -3,15 +3,15 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Henry's codes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -19,33 +19,37 @@
 
 <section class="heroPage">
     <nav>
-        <div class="tooltip"><a href="#about"><i class='bx bx-user' style='color:#127173' ><br><span class="toolTipText">About Me</span></i></a>
+        <div class="tooltip"><a href="#about"><i class='bx bx-user'><br>
+            <span class="toolTipText">About Me</span></i></a>
         </div>
-        <div class="tooltip"><a href="#proPage"><i class='bx bx-grid-alt' style="color:rgb(18, 113, 115)"><br><span class="toolTipText">Projects</span></i></a>
+        <div class="tooltip"><a href="#proPage"><i class='bx bx-grid-alt'><br>
+            <span class="toolTipText">Projects</span></i></a>
         </div>
-        <div class="tooltip"><a href="#contactPage"><i class='bx bx-at' style='color:#127173'><br><span class="toolTipText">Contact</span></i></a>
+        <div class="tooltip"><a href="#contactPage"><i class='bx bx-at'><br>
+            <span class="toolTipText">Contact</span></i></a>
         </div>
-        <div><a href="#"><i class='bx bx-up-arrow-circle' style='color:#0b7c72'></i></a></div>
+        <div><a href="#"><i class='bx bx-up-arrow-circle'></i></a></div>
 
     </nav>
     <div class="titleContainer">
         <div>
-            <h1>Hello there,</h1>
-            <h1>I'm Henry!</h1>
+            <h1>Hello there,<br> I'm Henry!</h1>
+
         </div>
         <div class="subtitle">
             <p>Full Stack Developer based in Bath.</p>
             <a href="#contactPage">
                 <button>Get in touch!</button>
             </a>
-            <a target="_blank" href="https://henry-tottle.github.io/Portfolio_site_2/henrys_blog.html"><button>Check out my blog!</button></a>
+            <a href="henrys_blog.html"><button>Check out my blog!</button></a>
         </div>
     </div>
 </section>
 <section class="aboutPage" id="about">
     <div>
         <h2>About me:</h2>
-        <p>As a recent graduate of the Full Stack Track from iO Academy, I am now looking to start my career as a full stack developer.</p>
+        <p>As a recent graduate of the Full Stack Track from iO Academy,
+            I am now looking to start my career as a full stack developer.</p>
     </div>
     <div class="hardSkills">
         <h3>:Hard Skills</h3>
@@ -69,7 +73,14 @@
     </div>
     <div>
         <h3>Biog:</h3>
-        <p>Having worked in the bookselling industry for 10 years, I have developed exemplary customer service and communication skills.  Being the systems and training lead furnished me with a can do attitude to solve any problems that may arise.  Starting my career in software development is a real dream come true and an opportunity to show the world what I can do!<br>I have a healthy relationship with pizza and enjoy spending my time with my family, playing video games and trying to replicate djenty guitar tones.</p>
+        <p>Having worked in the bookselling industry for 10 years,
+            I have developed exemplary customer service and communication skills.
+            Being the systems and training lead furnished me with a can do attitude
+            to solve any problems that may arise.  Starting my career in software
+            development is a real dream come true and an opportunity to show the world what I can do!
+            <br>
+            I have a healthy relationship with pizza and enjoy spending my time with my family,
+            playing video games and trying to replicate djenty guitar tones.</p>
     </div>
 
 </section>
@@ -80,35 +91,59 @@
     <div class="project">
         <a href="#"><div>
             <h4>Collectors App</h4>
-            <div><img src="Database_placeholder.jpeg" alt="placeholder"><aside>The client wanted a database to store information about their collection so that they can show off to their friends. For this project I have used PHP, SQL and the Dry principle.</aside></div>
+            <div>
+                <img src="Database_placeholder.jpeg" alt="placeholder">
+                <aside>The client wanted a database to store information about their collection so
+                    that they can show off to their friends. For this project I have used PHP, SQL
+                    and the Dry principle.</aside>
+            </div>
         </div></a>
     </div>
     <div class="project">
-        <a href="#"><div>
-            <h4>Game Build</h4>
-            <div><img src="Game_placeholder.jpeg" alt="placeholder"><aside>Using JavaScript I have built my first ever game!  For this project I have worked collaboratively, gaining a stronger understanding of Git and Scrum.</aside></div>
+        <a href="#">
+            <div>
+                <h4>Game Build</h4>
+            <div>
+                <img src="Game_placeholder.jpeg" alt="placeholder">
+                <aside>Using JavaScript I have built my first ever game!  For this project I have
+                    worked collaboratively, gaining a stronger understanding of Git and Scrum.</aside>
+            </div>
         </div></a>
     </div>
     <div class="project">
-        <a href="#"><div>
+        <a href="#">
+            <div>
             <h4>React Project</h4>
-            <div><img src="API_placeholder.jpeg" alt="placeholder"><aside>Using React, I have built an application built on a supplied design and utalising an existing API.  The app features pagination, seach and filters with a responsive front-end.</aside></div>
+            <div>
+                <img src="API_placeholder.jpeg" alt="placeholder">
+                <aside>Using React, I have built
+                an application built on a supplied design and utalising an existing API.  The app features
+                pagination, search and filters with a responsive front-end.</aside>
+            </div>
         </div></a>
     </div>
     <div class="project">
-        <div><a href="#">
+        <a href="#">
+            <div>
             <h4>OOP API</h4>
-            <div><img src="API_placeholder_2.jpeg" alt="placeholder"><aside>For this project I have built a well architected API, practicing OOP, writing high-quality code and good architectural patterns using PHP.</aside></div>
-        </a></div>
+            <div>
+                <img src="API_placeholder_2.jpeg" alt="placeholder">
+                <aside>For this project I have built a well architected API, practicing OOP, writing high-quality
+                    code and good architectural patterns using PHP.</aside>
+            </div>
+        </div></a>
     </div>
 
 </section>
 <section class="contactMe">
     <div>
         <div id="contactPage">
-            <a target="_blank" href="https://github.com/Henry-Tottle"><i class='bx bxl-github' style="color: #0b7c72"><br><span>github</span></i></a>
-            <a target="_blank" href="https://henry-tottle.github.io/Portfolio_site_2/CV.html"><i class='bx bx-file' style="color: #0b7c72"><br><span>cv</span></i></a>
-            <a  href="mailto:henry.developer.tottle@gmail.com"><i class='bx bx-envelope' style="color: #0b7c72"><br><span>email</span></i></a>
+            <a target="_blank" href="https://github.com/Henry-Tottle"><i class='bx bxl-github' >
+                <br><span>github</span></i></a>
+            <a target="_blank" href="CV.html"><i class='bx bx-file'>
+                <br><span>cv</span></i></a>
+            <a  href="mailto:henry.developer.tottle@gmail.com"><i class='bx bx-envelope'>
+                <br><span>email</span></i></a>
         </div>
     </div>
 
