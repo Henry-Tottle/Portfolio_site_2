@@ -4,13 +4,15 @@ html {
 body {
     box-sizing: border-box;
     /*font-family: "Chivo Mono", monospace;*/
-    font-family: "Major Mono Display", monospace;
+    /*font-family: "Major Mono Display", monospace;*/
+    font-family: "Kode Mono", monospace;
     color: rgb(18, 113, 115);
 
 
 }
 h1 {
     font-family: "Major Mono Display", monospace;
+    font-size: 40pt;
     /*font-family: "Chivo Mono", monospace;*/
 }
 i {
