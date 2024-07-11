@@ -40,7 +40,9 @@ nav div {
 nav i {
     font-size: 16pt;
 }
-
+.toolTipText {
+    display: none;
+}
 
 section {
     padding: 0 4px;
@@ -93,7 +95,9 @@ div {
     height: 100vh;
     background: rgb(255,174,0);
     background: linear-gradient(0deg, rgba(255,174,0,1) 0%, rgba(34, 193, 195, 0.74) 100%);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .aboutPage h2,h3, h4 {
     text-decoration: underline;
@@ -163,22 +167,19 @@ span {
     font-size: 16pt;
 }
 
-/*.blogPage {*/
-/*    height: 100%;*/
-/*    width: 100%;*/
-/*    background: rgb(34,193,195);*/
-/*    background: linear-gradient(0deg, rgba(34,193,195,0.7539609593837535) 0%, rgba(255,174,0,1) 100%);*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    flex-wrap: wrap;*/
-    /*text-align: center;*/
-/*}*/
-.blogPage section div{
-
+.blogPage,.CVPage {
+    height: 100vh;
+    width: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,0.7539609593837535) 0%, rgba(255,174,0,1) 100%);
+    display: flex;
 }
-/*.blogPage i {*/
-/*    font-size: 20pt;*/
-/*}*/
+.blogPage div {
+    width: 50%;
+}
+.blogPage i {
+    font-size: 20pt;
+}
 @media screen  and (min-width: 700px) {
     body {
         line-height: 1.6;
