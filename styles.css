@@ -1,15 +1,26 @@
+/*General comments:*/
+/*- very good overall, good use of nested selectors instead of using classes everywhere*/
+/*- just need to tidy a little by separating each block with a blank line,*/
+/*  and removing empty lines from the end of the blocks*/
+/*- also, you should remove commented-out code*/
+
+/*Don't forget to set the box-sizing property to border-box in the * selector here*/
+
 html {
     scroll-behavior: smooth;
 }
 body {
     box-sizing: border-box;
+    /*You should remove all commented-out lines before submitting for code review*/
     /*font-family: "Chivo Mono", monospace;*/
     /*font-family: "Major Mono Display", monospace;*/
     font-family: "Kode Mono", monospace;
     color: rgb(18, 113, 115);
+    /*Lots of blank lines here that could be deleted*/
 
 
 }
+/*It would look nicer to separate each css block with an empty line*/
 h1 {
     font-family: "Major Mono Display", monospace;
     font-size: 40pt;
@@ -35,6 +46,8 @@ nav {
 }
 nav div {
     padding: 0;
+    /*You've got some extra blank lines at the end of these css blocks,*/
+    /*please remove them*/
 
 }
 nav i {
@@ -163,6 +176,7 @@ span {
     font-size: 16pt;
 }
 
+/*Please remove these big commented-out blocks*/
 /*.blogPage {*/
 /*    height: 100%;*/
 /*    width: 100%;*/
@@ -173,12 +187,15 @@ span {
 /*    flex-wrap: wrap;*/
     /*text-align: center;*/
 /*}*/
+
+/*As this doesn't do anything, you might as well remove it!*/
 .blogPage section div{
 
 }
 /*.blogPage i {*/
 /*    font-size: 20pt;*/
 /*}*/
+/*You've got an extra space before the and here:*/
 @media screen  and (min-width: 700px) {
     body {
         line-height: 1.6;

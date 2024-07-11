@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&display=swap"
           rel="stylesheet">
+<!--    Best to put the normalize.css link before any other link tags,-->
+<!--    as it creates a blank slate to work from-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
           integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -20,8 +22,12 @@
 
 <section class="heroPage">
     <nav>
+<!--        You've used inline style attributes to change the colour of your-->
+<!--        icons here: it would be much better to do this from css instead-->
         <div class="tooltip"><a href="#about"><i class='bx bx-user' style='color:#127173' ><br><span class="toolTipText">About Me</span></i></a>
         </div>
+<!--        These lines are getting a little long, it would be a good idea to-->
+<!--        split them up over multiple lines-->
         <div class="tooltip"><a href="#proPage"><i class='bx bx-grid-alt' style="color:rgb(18, 113, 115)"><br><span class="toolTipText">Projects</span></i></a>
         </div>
         <div class="tooltip"><a href="#contactPage"><i class='bx bx-at' style='color:#127173'><br><span class="toolTipText">Contact</span></i></a>
@@ -31,6 +37,7 @@
     </nav>
     <div class="titleContainer">
         <div>
+<!--            You could just put this all in the same h1 tag by adding a <br> to break it up-->
             <h1>Hello there,</h1>
             <h1>I'm Henry!</h1>
         </div>
@@ -49,6 +56,7 @@
         <p>As a recent graduate of the Full Stack Track from iO Academy, I am now looking to start my career as a full stack developer.</p>
     </div>
     <div class="hardSkills">
+<!--        Did you mean to put the colon at the start here?-->
         <h3>:Hard Skills</h3>
         <ul>
             <li>HTML5</li>
@@ -70,6 +78,8 @@
     </div>
     <div>
         <h3>Biog:</h3>
+<!--        You can split long paragraphs like this over multiple lines,-->
+<!--        it will have no effect on the HTML output-->
         <p>Having worked in the bookselling industry for 10 years, I have developed exemplary customer service and communication skills.  Being the systems and training lead furnished me with a can do attitude to solve any problems that may arise.  Starting my career in software development is a real dream come true and an opportunity to show the world what I can do!</p>
     </div>
 
@@ -79,6 +89,8 @@
         <h3>Projects:</h3>
     </div>
     <div class="project">
+<!--        I would put the opening div tags on new lines here,-->
+<!--        and split up the aside text onto multiple lines-->
         <a href="#"><div>
             <h4>Collectors App</h4>
             <div><img src="Database_placeholder.jpeg" alt="placeholder"><aside>The client wanted a database to store information about their collection so that they can show off to their friends. For this project I have used PHP, SQL and the Dry principle.</aside></div>
@@ -107,6 +119,7 @@
 <section class="contactMe">
     <div>
         <div id="contactPage">
+<!--            Again, don't add the icon styling colour here, do it in css instead-->
             <a target="_blank" href="https://github.com/Henry-Tottle"><i class='bx bxl-github' style="color: #0b7c72"><br><span>github</span></i></a>
             <a target="_blank" href="https://henry-tottle.github.io/Portfolio_site_2/CV.html"><i class='bx bx-file' style="color: #0b7c72"><br><span>cv</span></i></a>
             <a  href="mailto:henry.developer.tottle@gmail.com"><i class='bx bx-envelope' style="color: #0b7c72"><br><span>email</span></i></a>
