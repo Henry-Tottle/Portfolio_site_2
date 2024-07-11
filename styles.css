@@ -209,6 +209,9 @@ span {
     width: 100%;
     background: rgb(34, 193, 195);
     background: linear-gradient(0deg, rgba(34, 193, 195, 0.7539609593837535) 0%, rgba(255, 174, 0, 1) 100%);
+}
+
+.blogPage,.CVPage {
     display: flex;
     justify-content: space-around;
 }
@@ -240,7 +243,6 @@ span {
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .blogLinks button {
@@ -249,6 +251,18 @@ span {
     border-radius: 10px;
     padding: 0 6px;
 }
+
+.blogHtml {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sideBySideLists {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 @media screen  and (min-width: 700px) {
     body {
