@@ -120,6 +120,10 @@ div {
     text-decoration: underline;
 }
 
+.hardSkills,.softSkills {
+    margin-top: 2rem;
+}
+
 .hardSkills {
     display: flex;
     flex-direction: row-reverse;
