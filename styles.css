@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -34,7 +35,6 @@ nav {
     align-items: flex-end;
     height: 93vh;
     z-index: 10;
-
 }
 
 nav div {
@@ -104,7 +104,6 @@ h1, h2, h3, p {
 
 div {
     filter: drop-shadow(14px 12px 35px rgba(77, 110, 174, 0.13));
-
 }
 
 .aboutPage {
@@ -131,12 +130,8 @@ div {
     display: flex;
     justify-content: flex-end;
 }
-/*.biog {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*}*/
 
-p a{
+p a {
     text-decoration: none;
     color: rgb(18, 113, 115);
 }
@@ -144,6 +139,7 @@ p a{
 p a:hover {
     color: rgb(24, 160, 163);
 }
+
 .projectsPage {
     height: 100vh;
     background: linear-gradient(0deg, rgba(34, 193, 195, 0.7539609593837535) 0%, rgba(255, 174, 0, 1) 100%);
@@ -209,14 +205,14 @@ span {
     font-size: 16pt;
 }
 
-.blogPage,.CVPage,.blogHtml {
+.blogPage, .CVPage, .blogHtml {
     height: 100%;
     width: 100%;
     background: rgb(34, 193, 195);
     background: linear-gradient(0deg, rgba(34, 193, 195, 0.7539609593837535) 0%, rgba(255, 174, 0, 1) 100%);
 }
 
-.blogPage,.CVPage {
+.blogPage, .CVPage {
     display: flex;
     justify-content: space-around;
 }
@@ -279,7 +275,6 @@ span {
         visibility: hidden;
         writing-mode: vertical-rl;
         text-orientation: upright;
-
     }
 
     .tooltip:hover .toolTipText {
